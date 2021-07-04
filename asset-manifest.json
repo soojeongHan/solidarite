@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/solidarite/static/js/main.9f49d4df.chunk.js",
+    "main.js.map": "/solidarite/static/js/main.9f49d4df.chunk.js.map",
+    "runtime-main.js": "/solidarite/static/js/runtime-main.425d63ce.js",
+    "runtime-main.js.map": "/solidarite/static/js/runtime-main.425d63ce.js.map",
+    "static/js/2.c9a8e4bb.chunk.js": "/solidarite/static/js/2.c9a8e4bb.chunk.js",
+    "static/js/2.c9a8e4bb.chunk.js.map": "/solidarite/static/js/2.c9a8e4bb.chunk.js.map",
+    "index.html": "/solidarite/index.html",
+    "static/js/2.c9a8e4bb.chunk.js.LICENSE.txt": "/solidarite/static/js/2.c9a8e4bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.425d63ce.js",
+    "static/js/2.c9a8e4bb.chunk.js",
+    "static/js/main.9f49d4df.chunk.js"
+  ]
+}
