@@ -1,7 +1,10 @@
 import React from "react";
+import styled from "@emotion/styled";
+
+const Section = styled.section``;
 
 const ListTemplate = ({ children }) => {
-  return <section>{children}</section>;
+  return <Section>{children}</Section>;
 };
 
 export default ListTemplate;

@@ -1,7 +1,13 @@
 import React from "react";
+import styled from "@emotion/styled";
 
-const ListFetchMoreBar = () => {
-  return <div>INFINITE SCROLL BAR</div>;
+const Bar = styled.div`
+  width: 100%;
+  height: 1px;
+`;
+
+const ListFetchMoreBar = (_, ref) => {
+  return <Bar ref={ref} />;
 };
 
-export default ListFetchMoreBar;
+export default React.forwardRef(ListFetchMoreBar);

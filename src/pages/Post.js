@@ -3,15 +3,15 @@ import qs from "query-string";
 import Main from "../components/main";
 import PostContainer from "../containers/PostContainer";
 
-const Detail = ({ location, match }) => {
+const Post = ({ location }) => {
+  const postType = location.pathname.split("/")[1];
   const { id } = qs.parse(location.search);
-  console.log(id);
 
   return (
     <Main>
-      <PostContainer />
+      <PostContainer postId={id} postType={postType} />
     </Main>
   );
 };
 
-export default Detail;
+export default Post;

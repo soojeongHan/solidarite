@@ -1,17 +1,15 @@
-import { Route, HashRouter, Switch } from "react-router-dom";
-import Home from "./pages/Home";
-import Detail from "./pages/Detail";
-import Error from "./pages/Error";
+import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Home, Post, Error } from "./pages";
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path={["/a", "/b"]} component={Detail} />
+        <Route path={["/a", "/b"]} component={Post} />
         <Route component={Error} />
       </Switch>
-    </HashRouter>
+    </Router>
   );
 }
 
